@@ -173,12 +173,8 @@ function App() {
         </div>
         <div className="mx-auto grid min-h-[82vh] max-w-6xl items-center gap-12 px-5 pb-20 pt-12 sm:px-6 lg:grid-cols-[0.95fr_1.05fr] lg:px-8">
           <div>
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-green-200 bg-white px-4 py-2 text-sm font-bold text-pitch shadow-sm">
-              <BadgeCheck size={17} aria-hidden="true" />
-              Estoque real, chama e eu confirmo
-            </div>
             <h1 className="max-w-3xl text-4xl font-black leading-tight text-ink sm:text-5xl lg:text-6xl">
-              Pacotes de figurinhas da Copa para comprar hoje
+              Pacotes de figurinhas da Copa para completar seu álbum
             </h1>
             <div className="mt-6 grid gap-2 text-sm font-bold text-slate-700 sm:grid-cols-2">
               {heroStats.map((item) => (
