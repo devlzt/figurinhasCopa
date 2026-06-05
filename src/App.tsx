@@ -9,7 +9,6 @@ import { stickerPackages, store, type StickerPackage } from "./data/packages";
 
 const heroStats = [
   "Pacotes fechados, sem venda por número",
-  "Retirada ou entrega combinada",
   "Pagamento via Pix",
 ];
 
@@ -181,10 +180,7 @@ function App() {
             <h1 className="max-w-3xl text-4xl font-black leading-tight text-ink sm:text-5xl lg:text-6xl">
               Pacotes de figurinhas da Copa para comprar hoje
             </h1>
-            <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl">
-              Tenho envelopes fechados disponíveis. Escolha o pacote, clique em comprar e finalize seu pedido com segurança.
-            </p>
-            <div className="mt-6 grid gap-2 text-sm font-bold text-slate-700 sm:grid-cols-3">
+            <div className="mt-6 grid gap-2 text-sm font-bold text-slate-700 sm:grid-cols-2">
               {heroStats.map((item) => (
                 <div key={item} className="flex items-center gap-2 rounded-2xl bg-white/80 px-3 py-3 shadow-sm">
                   <BadgeCheck className="shrink-0 text-pitch" size={18} aria-hidden="true" />
@@ -212,9 +208,6 @@ function App() {
             <p className="text-sm font-black uppercase tracking-wide text-pitch">Pacotes disponíveis</p>
             <h2 className="mt-2 text-3xl font-black text-ink sm:text-4xl">Escolha seu pacote</h2>
           </div>
-          <p className="max-w-xl text-sm leading-6 text-slate-600">
-            Todos são pacotes fechados. Me chama antes para confirmar o que ainda tem disponível no estoque.
-          </p>
         </div>
         <div className="mt-8 grid gap-5 lg:grid-cols-2">
           {stickerPackages.map((pkg) => (
