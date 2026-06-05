@@ -10,7 +10,7 @@ export type StickerPackage = {
 };
 
 export const store = {
-  name: "Figurinhas da Copa",
+  name: "Universo das Figurinhas",
   whatsapp: "5564999999999",
 };
 
